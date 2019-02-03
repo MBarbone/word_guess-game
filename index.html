@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="shortcut icon" type="image/png" href="Assets/Images/535f311242f80bf38f6a59bb218605b6_3DA_icon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+</head>
+<body>
+
+        <div class="container jumbotron">
+            <div class="row">
+               <div class="col-md-10">
+                    <h1 class="display-4">Guess the City!</h1>
+               </div>
+
+               <div class="col-md-2">
+                    <img src="Assets/Images/globe-png-26.png" class="img-fluid" id="globe" alt="Responsive image">
+               </div>     
+            </div>
+        </div>
+
+
+        <div class="container container-body">
+            <div class="row">
+                <div class="col-md-1"></div>
+                    <div class="col-md-10 city">
+                            <p id="cityToGuess">_ _ _ _ _ _</p>
+                     </div>
+                <div class="col-md-1"></div>
+            </div>
+            
+            <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 game-boxes">
+                            <p>Letters Guessed: <span id="userGuesses"></span></p>
+                    </div>
+                    <div class="col-md-5 game-boxes">
+                            <p>Guesses Remaining: <span id="numGuessesLeft"></span></p>
+                    </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 game-boxes">
+                            <p>Wins Total: <span id="numWins"></p>
+                    </div>
+                    <div class="col-md-5 game-boxes">
+                            <p>Losses Total: <span id="numLosses"></span></p>
+                    </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>           
+
+        <audio id="correct-answer" src="assets/sounds/correct-answer.wav" preload="auto"></audio>
+        <audio id="wrong-answer" src="assets/sounds/wrong-answer.mp3" preload="auto"></audio>
+
+<script type="text/javascript" src="assets/javascript/game1.js"></script> 
+        
+</body>
+</html>

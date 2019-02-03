@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.jumbotron {
+    position: absolute;left: 50%;
+    transform: translateX(-50%); 
+    top: 0;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+body {
+    background-color: transparent;
+
+}
+:not(h1) {
+    font-family: 'Courgette', cursive;
+} 
+
+
+#globe {
+    width: 90px;  
+}
+
+
+html {
+    background: url(../Images/architecture-booth-buildings-374815-copy.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.container-body {
+    height: auto;
+    margin-top: 300px;
+    background-color: #e9ecef;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 16pt;
+
+}
+.city p {
+    text-align: center;
+    margin-top: 155px;
+    letter-spacing: 8pt;
+}
+
+.game-boxes {
+    margin-top: 60px;
+    text-align: center;
+}
